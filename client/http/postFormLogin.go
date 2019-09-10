@@ -10,7 +10,7 @@ import (
 
 //使用postform
 func main() {
-	urlStr := "http://127.0.0.1:2001/login"
+	urlStr := "http://127.0.0.1:8080/login"
 	param := url.Values{
 		"username": {"zhou"},
 		"password": {"123456"},

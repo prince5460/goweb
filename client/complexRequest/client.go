@@ -10,7 +10,7 @@ import (
 )
 
 func main() {
-	urlStr := "http://127.0.0.1:2001/login"
+	urlStr := "http://127.0.0.1:8080/login"
 	client := http.Client{}
 	param := url.Values{
 		"username": {"zhou123"},

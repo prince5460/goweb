@@ -11,7 +11,7 @@ import (
 func main() {
 	server := http.NewServeMux()
 	server.HandleFunc("/login", login) //路由
-	http.ListenAndServe(":2001", server)
+	http.ListenAndServe(":8080", server)
 }
 
 func login(w http.ResponseWriter, r *http.Request) {
