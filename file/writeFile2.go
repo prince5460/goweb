@@ -9,7 +9,6 @@ func main() {
 
 	/*
 	   写出数据到文件：
-
 	*/
 	file, err := os.OpenFile("hello.txt", os.O_CREATE|os.O_WRONLY, os.ModePerm)
 	if err != nil {
